@@ -11,6 +11,12 @@ Pada perhitungan yang dipakai dalam kalkulator ini adalah
 - D  = 1
 - E  = 0
 
+Mencoba ?
+```text
+1. Anda bisa download code repo ini dan run di browser
+2. Kunjungi https://wildyrando.com/ipk-kalkulator
+```
+
 dan untuk perhitungan jenis ada 2 yakni
 ```text
 TM - 50% | UTS - 20% | UAS - 30%
