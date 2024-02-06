@@ -12,7 +12,10 @@ Pada perhitungan yang dipakai dalam kalkulator ini adalah
 - E  = 0
 
 dan untuk perhitungan jenis ada 2 yakni
+```text
 TM - 50% | UTS - 20% | UAS - 30%
+TM - 30% | UTS - 40% | UAS - 40%
+```
 
 yang dimana Project ini di buat berdasarkan penilaian pada Universitas Bunda Mulia
 
