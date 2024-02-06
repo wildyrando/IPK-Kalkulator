@@ -30,3 +30,9 @@ yang dimana Project ini di buat berdasarkan penilaian pada Universitas Bunda Mul
 Project ini merupakan hasil upgrade dari https://github.com/januridp/kalkulator-ipk.git
 Terimakasih kepada Januri D. P
 ```
+
+Pertanyaan ?
+```text
+Email: hai@wildyrando.com
+WhatsApp: 628158000632
+```
