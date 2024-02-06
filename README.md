@@ -3,13 +3,13 @@ Sebuah kalkulator IPK sederhana yang ditulis menggunakan Javascript, HTML dan CS
 
 # Informasi
 Pada perhitungan yang dipakai dalam kalkulator ini adalah
-A = 4
-B+ = 3.5
-B = 3
-C+ = 2.5
-C = 2
-D = 1
-E = 0
+- A  = 4
+- B+ = 3.5
+- B  = 3
+- C+ = 2.5
+- C  = 2
+- D  = 1
+- E  = 0
 
 dan untuk perhitungan jenis ada 2 yakni
 TM - 50% | UTS - 20% | UAS - 30%
