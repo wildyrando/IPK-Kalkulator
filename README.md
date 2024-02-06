@@ -17,6 +17,7 @@ TM - 50% | UTS - 20% | UAS - 30%
 yang dimana Project ini di buat berdasarkan penilaian pada Universitas Bunda Mulia
 
 # Keterangan
+```text
 Project ini merupakan hasil upgrade https://github.com/januridp/kalkulator-ipk.git
 Terimakasih kepada Januri D. P
-
+```
