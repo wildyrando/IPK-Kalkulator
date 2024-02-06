@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator IPK</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<!---
+    Code ini merupakan hasil upgrade dari https://github.com/januridp/kalkulator-ipk
+    Terimakasih kepada Januri D. P
+--->
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <div id="navigasi" class="bg-gray-800 text-white p-4">
+            <div class="flex justify-between items-center">
+                <a class="text-lg font-bold" href="#">
+                    Kalkulator IPK
+                </a>
+                <ul class="nav" style="float:right">
+                    <b>&copy; Copyright 2024 - WildyRando</b>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <div class="flex mb-4">
+                <div class="w-1/4 py-2">NIM</div>
+                <div class="w-3/4">
+                    <input type="text" id="nim" class="w-full bg-white rounded-md border border-gray-300 px-4 py-2">
+                </div>
+            </div>
+            <div class="flex mb-4">
+                <div class="w-1/4 py-2">Nama</div>
+                <div class="w-3/4">
+                    <input type="text" id="nama" class="w-full bg-white rounded-md border border-gray-300 px-4 py-2">
+                </div>
+            </div>
+            <div class="mb-4">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="tambahkan();"><i class="fas fa-plus"></i> Tambah mata kuliah</button>
+            </div>
+            <div>
+                <table id="nilai" class="table-auto w-full border-collapse border border-gray-300">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="px-4 py-2">Mata kuliah</th>
+                            <th class="px-4 py-2">SKS</th>
+                            <th class="px-4 py-2">Tugas</th>
+                            <th class="px-4 py-2">UTS</th>
+                            <th class="px-4 py-2">UAS</th>
+                            <th class="px-4 py-2">Jenis</th>
+                            <th class="px-4 py-2">Grade</th>
+                            <th class="px-4 py-2">Final</th>
+                            <th class="px-4 py-2">Hapus</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="flex justify-end mt-4">
+                <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="hitungipk();">Hitung IPK</button>
+            </div>
+
+            <div class="flex mt-8">
+                <div class="w-full flex justify-center">
+                    <div id="result" class="hidden bg-green-200 border border-green-500 px-4 py-2 rounded w-3/4">
+                        <p class="font-bold mb-2">Result:</p>
+                        <p>Dari <span id="result_matkul">0</span> Matkul dengan Total <span id="result_sks">0</span> SKS, anda mendapatkan hasil sebagai berikut:</p>
+                        <p>NIM : <span id="result_nim"></span></p>
+                        <p>Nama : <span id="result_nama"></span></p>
+                        <p>Maka IPK anda adalah: <span id="result_ipk">0</span></p>
+                        <br>
+                        <p>Selamat atas pencapaian anda, kedepan rajin-rajin bolos, cabut, melawan dosen supaya nilaimu tambah bagus kedepannya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
