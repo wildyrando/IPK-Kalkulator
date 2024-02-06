@@ -18,6 +18,6 @@ yang dimana Project ini di buat berdasarkan penilaian pada Universitas Bunda Mul
 
 # Keterangan
 ```text
-Project ini merupakan hasil upgrade https://github.com/januridp/kalkulator-ipk.git
+Project ini merupakan hasil upgrade dari https://github.com/januridp/kalkulator-ipk.git
 Terimakasih kepada Januri D. P
 ```
