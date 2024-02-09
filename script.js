@@ -12,6 +12,7 @@ window.kode = `
     <td><select class="jenis bg-white rounded-md border border-gray-300 px-2 py-1">
         <option value="def1">TM (30%), UTS (30%), UAS (40%)</option>
         <option value="def2">TM (50%), UTS (20%), UAS (30%)</option>
+	<option value="def3">TM (20%), UTS (30%), UAS (50%)</option>
     </select></td>
     <td class="grade px-4 py-2 center"></td>
     <td class="final px-4 py-2 center"</td>
@@ -104,6 +105,10 @@ $(document).ready(function () {
             tugas = 0.5 * parseInt($(this).closest('tr').find('.tugas').val());
             uts = 0.2 * parseInt($(this).closest('tr').find('.uts').val());
             uas = 0.3 * parseInt($(this).closest('tr').find('.uas').val());
+	} else if (jenis == 'def3') {
+	    tugas = 0.2 * parseInt($(this).closest('tr').find('.tugas').val());
+            uts = 0.3 * parseInt($(this).closest('tr').find('.uts').val());
+            uas = 0.5 * parseInt($(this).closest('tr').find('.uas').val());
         }
 
         var nilai = tugas + uts + uas;
