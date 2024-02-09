@@ -136,8 +136,10 @@ $(document).ready(function () {
             grade.html("K");
         }
 	}).delegate('.tombolhapus', 'click', function(){
-		if (confirm('Yakin mau hapus ?')) $(this).closest('tr').slideUp('slow').remove();
-		
+	    if (confirm('Yakin mau hapus ?')) {
+		// delete
+		$(this).closest('tr').slideUp('slow').remove();
+	    }
 	});
 
     $('.sks, .tugas, .uts, .uas, .jenis').focus(function () {
