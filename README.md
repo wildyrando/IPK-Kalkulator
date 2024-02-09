@@ -17,10 +17,11 @@ Mencoba ?
 2. Kunjungi https://wildyrando.com/ipk-kalkulator
 ```
 
-dan untuk perhitungan jenis ada 2 yakni
+dan untuk perhitungan jenis ada 3 yakni
 ```text
 TM - 50% | UTS - 20% | UAS - 30%
 TM - 30% | UTS - 40% | UAS - 40%
+TM - 20% | UTS - 30% | UAS - 50%
 ```
 
 yang dimana Project ini di buat berdasarkan penilaian pada Universitas Bunda Mulia
